@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useTelegram } from "../../hooks/useTelegram";
+import useTelegram from "../../hooks/useTelegram";
 import "./Form.css";
-export const Form = () => {
+const Form = () => {
   const [country, setCountry] = useState("");
   const [street, setStreet] = useState("");
   const [subject, setSubject] = useState("physical");
@@ -57,3 +57,4 @@ export const Form = () => {
     </div>
   );
 };
+export default Form

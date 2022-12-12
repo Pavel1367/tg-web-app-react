@@ -1,9 +1,10 @@
 import React from "react";  
 import './ProductList.css'
-export const ProductList = () => {
+const ProductList = () => {
   return(
     <div>
         ProductList
     </div>
   )
 }
+export default ProductList
