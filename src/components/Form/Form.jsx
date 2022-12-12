@@ -5,7 +5,7 @@ export const Form = () => {
   const [country, setCountry] = useState("");
   const [street, setStreet] = useState("");
   const [subject, setSubject] = useState("physical");
-  const { tg } = useTelegram;
+  const { tg } = useTelegram();
 
   useEffect(() => {
     tg.MainButton.setParams({
